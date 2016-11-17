@@ -6,14 +6,7 @@
     "System.Diagnostics.Process": "4.3.0-preview1-24530-04",
     "System.IO.Pipes": "4.3.0-preview1-24530-04"
   },
-  //"frameworks": {
-  //  "netstandard1.6": {
-  //    "imports": [
-  //      "dnxcore50",
-  //      "net4.5"
-  //    ]
-  //  }
-  //},
+
   "frameworks": {
     "net46": {},
     "netstandard1.6": {
