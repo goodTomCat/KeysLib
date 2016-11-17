@@ -1,0 +1,30 @@
+{
+  "version": "1.0.7-*",
+  "dependencies": {
+    "JabyLib": "0.3.6-beta",
+    "NETStandard.Library": "1.6.0",
+    "System.Diagnostics.Process": "4.3.0-preview1-24530-04",
+    "System.IO.Pipes": "4.3.0-preview1-24530-04"
+  },
+  //"frameworks": {
+  //  "netstandard1.6": {
+  //    "imports": [
+  //      "dnxcore50",
+  //      "net4.5"
+  //    ]
+  //  }
+  //},
+  "frameworks": {
+    "net46": {},
+    "netstandard1.6": {
+      "imports": [
+        "portable-net45+wp80+win8+wpa81+dnxcore50",
+        "portable-net451+win8",
+        "dnxcore50"
+      ]
+    }
+  },
+  "buildOptions": {
+    "xmlDoc": true
+  }
+}
